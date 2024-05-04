@@ -1,3 +1,3 @@
 ```rust,no_run
-{{#include ./sumsi/src/main.rs:1}}
+{{#include ../../listings/src/main.rs:1}}
 ```
