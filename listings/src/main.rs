@@ -6,7 +6,7 @@ mod tests {
     #[test]
     fn it_works() {
         let result = greet();
-        assert_eq!(result, "hello world!");
+        assert_eq!(result, "hello world");
     }
 }
 
