@@ -2,7 +2,7 @@
 
 To stop tracking a file in git, you can use the following command:
 
-```
+```console
 git rm --cached <file>
 ```
 
