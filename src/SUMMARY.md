@@ -4,8 +4,8 @@
 
 # Software Development
 
-- [Greet - Hello World](./software_development/greet-hello-world.md)
+- [Function "Hello World"](software_development/function-hello-world.md)
 
-## Tools
+# Software Development Tools
 
-- [git-stop-tracking-file](./software_development/tools/git-stop-tracking-file.md)
+- [git - Stop Tracking File](software_development_tools/git-stop-tracking-file.md)
