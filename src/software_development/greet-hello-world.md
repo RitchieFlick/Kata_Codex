@@ -1,9 +1,3 @@
-```rust
-fn greet() -> &'static str { "hello world!" }
-
-#[test]
-fn it_works() {
-    let result = greet();
-    assert_eq!(result, "sumsi");
-}
+```rust,no_run
+{{#rustdoc_include ./sumsi/src/main.rs:1}}
 ```
