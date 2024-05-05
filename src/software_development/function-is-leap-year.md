@@ -1,13 +1,5 @@
 # Is Leap Year
 
-## Notes
-
-The rules for determining if a year is a **leap year**:
-
-- Years divisible by 4 are leap years,
-- but years divisible by 100 are **not** leap years,
-- but years divisible by 400 are leap years.
-
 ## Kata
 
 **Rust**
@@ -22,6 +14,14 @@ let is_leap = match (year % 400, year % 100, year % 4) {
 };
 #println!("Year {} is a leap year: {}", year, is_leap);
 ```
+
+### Notes
+
+The rules for determining if a year is a **leap year**:
+
+- Years divisible by 4 are leap years,
+- but years divisible by 100 are **not** leap years,
+- but years divisible by 400 are leap years.
 
 ### Test cases
 
