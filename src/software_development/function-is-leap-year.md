@@ -13,14 +13,14 @@ The rules for determining if a year is a **leap year**:
 **Rust**
 
 ```rust
-fn is_leap_year(year: i32) -> bool {
-    match (year % 400, year % 100, year % 4) {
-        (0, _, _) => true,
-        (_, 0, _) => false,
-        (_, _, 0) => true,
-        _ => false,
-    }
-}
+#let year = 2020;
+let is_leap = match (year % 400, year % 100, year % 4) {
+    (0, _, _) => true,
+    (_, 0, _) => false,
+    (_, _, 0) => true,
+    _ => false,
+};
+#println!("Year {} is a leap year: {}", year, is_leap);
 ```
 
 ### Test cases
